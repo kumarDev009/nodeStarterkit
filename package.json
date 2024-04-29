@@ -1,0 +1,40 @@
+{
+	"name": "mitrah_node_starter_kit",
+	"version": "1.0.0",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"lint": "eslint --fix .",
+		"start": "nodemon server.js",
+		"prettier": "prettier --write ."
+	},
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"cors": "^2.8.5",
+		"crypto": "^1.0.1",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"express-session": "^1.17.3",
+		"express-validator": "^7.0.1",
+		"jsonwebtoken": "^9.0.1",
+		"multer": "^1.4.5-lts.1",
+		"node-schedule": "^2.1.1",
+		"nodemailer": "^6.9.4",
+		"passport": "^0.6.0",
+		"passport-jwt": "^4.0.1",
+		"passport-local": "^1.0.0",
+		"pg": "^8.11.1",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^5.0.0",
+		"uuid": "^9.0.0",
+		"winston": "^3.10.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.49.0",
+		"eslint-config-prettier": "^9.0.0",
+		"nodemon": "^2.0.2",
+		"pkg": "^5.8.1",
+		"prettier": "^3.0.3"
+	},
+	"license": "MIT"
+}
